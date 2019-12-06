@@ -22,6 +22,11 @@ public class HangmanPanel extends JPanel {
         g.fillRect(0, 0, 200, 200);
 
         g.setColor(Color.BLACK);
+        
+        /*
+            plase finde a better way to draw the lines for example you
+            you can use for()
+        */
 
         if (this.remainingLiefs < 12)
             g.drawLine(40, 180, 80, 180);
