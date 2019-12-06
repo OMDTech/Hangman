@@ -48,7 +48,9 @@ public class GUI {
         field.requestFocusInWindow();
 
         used.setBounds(90 , 390 , 4000 , 200);
-
+        
+        
+//make shure that all bounds are in the right place
         panel.setBounds(50, 30, 290, 200);
         button.setBounds(140, 450, 100, 20);
         retry.setBounds(140, 450, 100, 20);
@@ -117,6 +119,8 @@ public class GUI {
         frame.repaint();
 
         usedChar.setText(incorrectlyGassedChar);
+        
+        // please remove all comment
 //        if (incorrectlyGassedChar.contains(field.getText()))
 //            JOptionPane.showMessageDialog(frame, "already used");
 
